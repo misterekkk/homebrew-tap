@@ -7,7 +7,7 @@ cask "lantern" do
   desc "Local-first multimodal semantic search for macOS"
   homepage "https://github.com/misterekkk/lantern"
 
-  depends_on macos: :sonoma
+  depends_on macos: ">= :tahoe" # macOS 26.2+: the bundled MLX libraries need 26.2 (Lantern.app checks it)
   depends_on arch: :arm64
 
   app "Lantern.app"
