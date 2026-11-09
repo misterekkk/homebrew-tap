@@ -1,6 +1,6 @@
 cask "lantern" do
-  version "0.2.2"
-  sha256 "3a6b0d9172c09975f87600f726d9f58556f1cee6f14e2aff120eadf304b40f89"
+  version "0.2.3"
+  sha256 "2838d627aeecb8fcf09f28292b598ad42e65e3b07532746a833736affce3f33e"
 
   url "https://github.com/misterekkk/lantern/releases/download/v#{version}/Lantern.dmg"
   name "Lantern"
